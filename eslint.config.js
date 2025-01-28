@@ -9,6 +9,7 @@ export default antfu({
       { groups: ['builtin', 'external'], warnOnUnassignedImports: true },
     ],
     'unused-imports/no-unused-imports': 'off',
+    'import/consistent-type-specifier-style': 'off',
     '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/no-redeclare': 'off',
     'vue/max-attributes-per-line': ['error', {
