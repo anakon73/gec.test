@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      tailwind-merge:
-        specifier: ^2.6.0
-        version: 2.6.0
+      lucide-vue-next:
+        specifier: ^0.474.0
+        version: 0.474.0(vue@3.5.13(typescript@5.6.3))
       tailwindcss:
         specifier: ^4.0.0
         version: 4.0.0
@@ -45,6 +45,9 @@ importers:
       eslint:
         specifier: ^9.19.0
         version: 9.19.0(jiti@2.4.2)
+      tailwind-merge:
+        specifier: ^2.6.0
+        version: 2.6.0
       typescript:
         specifier: ~5.6.2
         version: 5.6.3
@@ -1447,6 +1450,11 @@ packages:
 
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
+
+  lucide-vue-next@0.474.0:
+    resolution: {integrity: sha512-bQaSBjfJ33xiPQCxCf4JD3rcUgZFgWZzxSY8SScNa4Mcq2vWGlbvQx6icTL1UXRqsxzfoT13RXawePSmgg4iWw==}
+    peerDependencies:
+      vue: '>=3.0.1'
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
@@ -3437,6 +3445,10 @@ snapshots:
   lodash@4.17.21: {}
 
   longest-streak@3.1.0: {}
+
+  lucide-vue-next@0.474.0(vue@3.5.13(typescript@5.6.3)):
+    dependencies:
+      vue: 3.5.13(typescript@5.6.3)
 
   magic-string@0.30.17:
     dependencies:
