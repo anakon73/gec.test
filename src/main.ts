@@ -1,5 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import './style.css'
+import './app'
 
-createApp(App).mount('#app')
+import { app } from '@/shared/lib/app'
+
+import App from './app/App.vue'
+
+app.component('App', App)
+
+app.mount('#app')
