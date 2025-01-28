@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Formular';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./formula/Formular.woff2') format('woff2'),
+       url('./formula/Formular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Formular';
+  font-weight: 500;
+  font-style: normal;
+  src: url('./formula/Formular-Medium.woff2') format('woff2'),
+       url('./formula/Formular-Medium.woff') format('woff');
+}
+
+@theme {
+  --font-formular: "Formular", sans-serif;
+}
