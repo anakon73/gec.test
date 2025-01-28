@@ -1,0 +1,14 @@
+{
+  "rating": {
+    "view": "Переглянути",
+    "write": "Написати",
+    "reviews": "відгуки",
+    "url": "URL:",
+    "title": "Заголовок:",
+    "image": "Зображення:"
+  },
+  "localization": {
+    "ua": "UA",
+    "en": "ENG"
+  }
+}

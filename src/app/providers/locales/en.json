@@ -1,0 +1,14 @@
+{
+  "rating": {
+    "view": "View",
+    "write": "Write",
+    "reviews": "Reviews",
+    "url": "URL:",
+    "title": "Title:",
+    "image": "Image:"
+  },
+  "localization": {
+    "ua": "UA",
+    "en": "ENG"
+  }
+}
