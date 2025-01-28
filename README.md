@@ -1,5 +1,37 @@
-# Vue 3 + TypeScript + Vite
+# Grade Education Centre Test
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Test task for Grade Education Centre
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Tech Stack
+- Vue
+- Vite
+- TypeScript
+- TailwindCSS
+- Radix-Vue
+- Vue-I18n
+- Tanstack/vue-query
+- Valibot
+
+## mockAPI integration
+
+This project uses **MockAPI** to simulate backend data. **Tanstack Query** is used to fetch and cache the data, while **Valibot** validates the data structure before it’s used in the app.
+
+## Project setup
+
+### Setup
+
+```
+pnpm install
+```
+
+### Dev mode
+
+```
+pnpm dev
+```
+
+### Build
+
+```
+pnpm build
+```
